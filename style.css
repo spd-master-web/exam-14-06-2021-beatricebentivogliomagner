@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif
+}
+ /*HEADER*/
+
+header {
+  height: 250px;
+  background-color: gainsboro;
+}
+
+.logo{
+  width: 100px;
+  margin:0 auto;
+  display: block;
+  padding-top: 10px;
+  
+  
+}
+
+.slogan {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;  
+}
+
+a { 
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none; 
+  color: black } 
+  
+ul a:hover{ 
+  color: #fafafa; 
+}
+
+ /*SECTIONS*/
+
+ 
+h1, h2{
+  font-family:'Poppins', sans-serif;
+  text-align: center;
+}
+
+
