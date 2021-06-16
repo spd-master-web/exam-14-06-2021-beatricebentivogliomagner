@@ -47,10 +47,124 @@ ul a:hover{
 
  /*SECTIONS*/
 
- 
-h1, h2{
+
+h2{
   font-family:'Poppins', sans-serif;
   text-align: center;
+  font-size: 30px;
 }
 
+h3{
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+  font-size: 20px;
+}
+
+h4{
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+  font-size: 15px;
+}
+
+img{
+  width: 250px;
+}
+
+#BOOTS{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 1800px;
+}
+
+#first_boot{
+  margin: 80px;
+  float: left;
+}
+#second_boot{
+  margin: 80px;
+  float: left;
+}
+#third_boot{
+  margin: 80px;
+  float: left;
+}
+#fourth_boot{
+  margin: 80px;
+  float: left;
+}
+#fifth_boot{
+  margin: 80px;
+  float: left;
+}
+#sixth_boot{
+  margin: 80px;
+  float: left;
+}
+
+
+#SANDALS{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 1800px
+}
+
+#first_sandal{
+  margin: 80px;
+  float: left;
+}
+#second_sandal{
+  margin: 80px;
+  float: left;
+}
+#third_sandal{
+  margin: 80px;
+  float: left;
+}
+#fourth_sandal{
+  margin: 80px;
+  float: left;
+}
+#fifth_sandal{
+  margin: 80px;
+  float: left;
+}
+#sixth_sandal{
+  margin: 80px;
+  float: left;
+}
+
+
+#SNEAKERS{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 1800px
+}
+
+#first_sneaker{
+  margin: 80px;
+  float: left;
+}
+#second_sneaker{
+  margin: 80px;
+  float: left;
+}
+#third_sneaker{
+  margin: 80px;
+  float: left;
+}
+#fourth_sneaker{
+  margin: 80px;
+  float: left;
+}
+#fifth_sneaker{
+  margin: 80px;
+  float: left;
+}
+#sixth_sneaker{
+  margin: 80px;
+  float: left;
+}
 
