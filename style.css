@@ -62,12 +62,14 @@ h3{
   font-family:'Poppins', sans-serif;
   margin: 5px;
   font-size: 20px;
+  text-align: center;
 }
 
 h4{
   font-family:'Poppins', sans-serif;
   margin: 5px;
   font-size: 15px;
+  text-align: center;
 }
 
 img{
@@ -77,6 +79,7 @@ img{
 section{
   clear: both;
 }
+
 article
 {
   display: block;
@@ -198,9 +201,13 @@ article
   display: block;
   text-align: center;
   cursor: pointer;
-  border: 3px solid fuchsia;
+  border: 3px solid black;
   border-radius: 20px;
 
+}
+
+.link-cart:hover {
+  background-color: gainsboro;
 }
 
 
