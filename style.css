@@ -1,7 +1,11 @@
-body {
+*{
+  box-sizing: border-box;}
+  
+  body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif
 }
+
  /*HEADER*/
 
 header {
@@ -70,11 +74,23 @@ img{
   width: 250px;
 }
 
-#BOOTS{
+section{
+  clear: both;
+}
+article
+{
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  float: left;
+}
+/* #BOOTS{
   margin: 0 auto;
   display: block;
   text-align: center;
-  height: 1800px;
+  
+  background-color: blueviolet;
 }
 
 #first_boot{
@@ -107,7 +123,8 @@ img{
   margin: 0 auto;
   display: block;
   text-align: center;
-  height: 1800px
+  
+  background-color: crimson;
 }
 
 #first_sandal{
@@ -140,7 +157,9 @@ img{
   margin: 0 auto;
   display: block;
   text-align: center;
-  height: 1800px
+  height: z;
+  
+  background-color: cyan;
 }
 
 #first_sneaker{
@@ -166,5 +185,42 @@ img{
 #sixth_sneaker{
   margin: 80px;
   float: left;
+} */
+
+
+.link-cart {
+  border: none;
+  color: black;
+  width: 100%;
+  max-width: 370px;
+  margin: 0;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  border: 3px solid fuchsia;
+  border-radius: 20px;
+
+}
+
+
+footer{ height: 100px;
+  background-color: gainsboro;
+  clear: both;
+}
+
+.top{
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 10px;  
+}
+
+.top:hover {
+  color:fuchsia;
+}
+
+p{
+  margin: 0 auto;
+  padding: 10px; 
 }
 
