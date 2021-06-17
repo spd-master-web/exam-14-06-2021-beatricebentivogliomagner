@@ -1,5 +1,22 @@
 *{
   box-sizing: border-box;}
+
+body {
+  background-color: white;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+}
+/* end of media query */
+
+@media (max-width: 360px) {
+  body {
+    background-color: hotpink;
+  }
+}
   
   body {
   margin: 0 auto;
@@ -25,7 +42,7 @@ header {
 .slogan {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 
@@ -46,10 +63,11 @@ a {
   color: black } 
   
 ul a:hover{ 
+  background-color: black;
   color: #fafafa; 
 }
 
- /*SECTIONS*/
+ /*SECTIONS MAIN*/
 
 
 h2{
@@ -88,114 +106,12 @@ article
   padding: 20px;
   float: left;
 }
-/* #BOOTS{
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  
-  background-color: blueviolet;
-}
-
-#first_boot{
-  margin: 80px;
-  float: left;
-}
-#second_boot{
-  margin: 80px;
-  float: left;
-}
-#third_boot{
-  margin: 80px;
-  float: left;
-}
-#fourth_boot{
-  margin: 80px;
-  float: left;
-}
-#fifth_boot{
-  margin: 80px;
-  float: left;
-}
-#sixth_boot{
-  margin: 80px;
-  float: left;
-}
-
-
-#SANDALS{
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  
-  background-color: crimson;
-}
-
-#first_sandal{
-  margin: 80px;
-  float: left;
-}
-#second_sandal{
-  margin: 80px;
-  float: left;
-}
-#third_sandal{
-  margin: 80px;
-  float: left;
-}
-#fourth_sandal{
-  margin: 80px;
-  float: left;
-}
-#fifth_sandal{
-  margin: 80px;
-  float: left;
-}
-#sixth_sandal{
-  margin: 80px;
-  float: left;
-}
-
-
-#SNEAKERS{
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  height: z;
-  
-  background-color: cyan;
-}
-
-#first_sneaker{
-  margin: 80px;
-  float: left;
-}
-#second_sneaker{
-  margin: 80px;
-  float: left;
-}
-#third_sneaker{
-  margin: 80px;
-  float: left;
-}
-#fourth_sneaker{
-  margin: 80px;
-  float: left;
-}
-#fifth_sneaker{
-  margin: 80px;
-  float: left;
-}
-#sixth_sneaker{
-  margin: 80px;
-  float: left;
-} */
-
 
 .link-cart {
   border: none;
   color: black;
   width: 100%;
-  max-width: 370px;
+  max-width: 400px;
   margin: 0;
   padding: 8px;
   display: block;
