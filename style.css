@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;}
+
+  /*I'M SORRY I TRIED WITH THE MEDIA BUT DOESN'T WORK
+  maybe i didn't understand the functioning don't know */
+
+@media only screen and (min-widht:960px) {
+  body {
+    background-color: #fafafa
+  };
+}
+
+@media only screen and (max-widht:960px) and (min-widht:360px) {
+body {
+  background-color: hotpink;
+}
+}
+
+@media only screen and (max-widht::360px) {
+  body{
+    background-color: lavenderblush;
+  }
+}
+  body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+ /*HEADER*/
+
+header {
+  height: 250px;
+  background-color: gainsboro;
+}
+
+.logo{
+  width: 100px;
+  margin:0 auto;
+  display: block;
+  padding-top: 10px;
+  
+  
+}
+
+.slogan {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;  
+}
+
+a { 
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none; 
+  color: black } 
+  
+ul a:hover{ 
+  background-color: black;
+  color: #fafafa; 
+}
+
+ /*SECTIONS MAIN*/
+
+
+h2{
+  font-family:'Poppins', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3{
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h4{
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+h5{
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+  font-size: 15px;
+  text-align: center;
+  color: hotpink;
+}
+
+img{
+  width: 250px;
+}
+
+section{
+  clear: both;
+}
+
+article
+{
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  float: left;
+}
+/*I used the float beacause in my opinion works well and better with this ecommerce */
+
+
+  .link-cart {
+  border: none;
+  color: black;
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 20px;
+
+}
+
+.link-cart:hover {
+  background-color: gainsboro;
+}
+
+
+footer{ height: 100px;
+  background-color: gainsboro;
+  clear: both;
+}
+
+.top{
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 10px;  
+}
+
+.top:hover {
+  color:hotpink;
+}
+
+p{
+  margin: 0 auto;
+  padding: 10px; 
+}
+
