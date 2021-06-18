@@ -1,23 +1,26 @@
 *{
   box-sizing: border-box;}
 
+  /*I'M SORRY I TRIED WITH THE MEDIA BUT DOESN'T WORK
+  maybe i didn't understand the functioning don't know */
+
+@media only screen and (min-widht:960px) {
+  body {
+    background-color: #fafafa
+  };
+}
+
+@media only screen and (max-widht:960px) and (min-widht:360px) {
 body {
-  background-color: white;
+  background-color: hotpink;
+}
 }
 
-@media (max-width: 700px) {
-  body {
-    background-color: mediumaquamarine;
+@media only screen and (max-widht::360px) {
+  body{
+    background-color: lavenderblush;
   }
 }
-/* end of media query */
-
-@media (max-width: 360px) {
-  body {
-    background-color: hotpink;
-  }
-}
-  
   body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif
@@ -90,6 +93,14 @@ h4{
   text-align: center;
 }
 
+h5{
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+  font-size: 15px;
+  text-align: center;
+  color: hotpink;
+}
+
 img{
   width: 250px;
 }
@@ -106,8 +117,10 @@ article
   padding: 20px;
   float: left;
 }
+/*I used the float beacause in my opinion works well and better with this ecommerce */
 
-.link-cart {
+
+  .link-cart {
   border: none;
   color: black;
   width: 100%;
@@ -139,7 +152,7 @@ footer{ height: 100px;
 }
 
 .top:hover {
-  color:fuchsia;
+  color:hotpink;
 }
 
 p{
