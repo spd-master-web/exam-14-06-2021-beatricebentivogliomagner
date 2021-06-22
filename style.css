@@ -115,8 +115,23 @@ article
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  float: left;
 }
+
+#flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+#flex-item{
+  flex-basis: 50%;
+  
+}
+
+
+
 /*I used the float beacause in my opinion works well and better with this ecommerce */
 
 
