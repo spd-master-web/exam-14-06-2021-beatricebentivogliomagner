@@ -4,19 +4,19 @@
   /*I'M SORRY I TRIED WITH THE MEDIA BUT DOESN'T WORK
   maybe i didn't understand the functioning don't know */
 
-@media only screen and (min-widht:960px) {
+@media only screen and (min-width:960px) {
   body {
     background-color: #fafafa
   };
 }
 
-@media only screen and (max-widht:960px) and (min-widht:360px) {
+@media only screen and (max-width:960px) and (min-width:360px) {
 body {
   background-color: hotpink;
 }
 }
 
-@media only screen and (max-widht::360px) {
+@media only screen and (max-width:360px) {
   body{
     background-color: lavenderblush;
   }
@@ -38,8 +38,6 @@ header {
   margin:0 auto;
   display: block;
   padding-top: 10px;
-  
-  
 }
 
 .slogan {
@@ -102,34 +100,32 @@ h5{
 }
 
 img{
-  width: 250px;
+  width: 100%;
+  height: auto;
 }
 
-section{
-  clear: both;
-}
-
-article
-{
-  display: block;
-  max-width: 400px;
+article {
   margin: 0 auto;
   padding: 20px;
+
+  display: block;
 }
 
-#flex-container{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+.flex-container{
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-#flex-item{
-  flex-basis: 50%;
-  
+.flex-item{
 }
 
+.flex-container-title {
+  flex-basis: 100%;
+}
 
 
 /*I used the float beacause in my opinion works well and better with this ecommerce */
