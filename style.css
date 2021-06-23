@@ -1,26 +1,7 @@
 *{
   box-sizing: border-box;}
 
-  /*I'M SORRY I TRIED WITH THE MEDIA BUT DOESN'T WORK
-  maybe i didn't understand the functioning don't know */
-
-@media only screen and (min-width:960px) {
-  body {
-    background-color: #fafafa
-  };
-}
-
-@media only screen and (max-width:960px) and (min-width:360px) {
-body {
-  background-color: hotpink;
-}
-}
-
-@media only screen and (max-width:360px) {
-  body{
-    background-color: lavenderblush;
-  }
-}
+  
   body {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif
@@ -128,32 +109,42 @@ article {
 }
 
 
-/*I used the float beacause in my opinion works well and better with this ecommerce */
 
 
-  .link-cart {
+
+
+  .flex-link-cart {
   border: none;
   color: black;
-  width: 100%;
-  max-width: 400px;
+  
+  
   margin: 0;
   padding: 8px;
-  display: block;
+  
   text-align: center;
   cursor: pointer;
   border: 3px solid black;
   border-radius: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.link-cart:hover {
+.flex-link-cart:hover {
   background-color: gainsboro;
 }
 
+.flex-footer  {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
 footer{ height: 100px;
   background-color: gainsboro;
-  clear: both;
+  
 }
 
 .top{
@@ -163,7 +154,7 @@ footer{ height: 100px;
 }
 
 .top:hover {
-  color:hotpink;
+  color:hotpink
 }
 
 p{
